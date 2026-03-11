@@ -4,26 +4,27 @@
 //Matricula:D29079
 
 import java.util.Scanner;
-public class C04EX03 {
+public class C04EX03 
+{
     public static void main(String[] args) 
     {
         Double poluente1,poluente2,multa1, multa2, multa3;
 
         Scanner keyboard = new Scanner (System.in);
 
-        System.out.println("Digite ATÉ qual quantidade de poluente emitido (POLUENTE 1),gerará uma multa:(MULTA 1)");
+        System.out.print("Defina um valor/quantidade de poluente emitido para gerar a primeira multa: ");
         poluente1 = keyboard.nextDouble();
-        
-        System.out.println("Digite o valor da multa (MULTA 1), referente a (POLUENTE 1)");
+
+        System.out.print("Digite o valor da multa: ");
         multa1 = keyboard.nextDouble();
 
-        System.out.println("Defina o LIMITE de poluente emitido (POLUENTE 2), que seja cobrado o mesmo valor de:" + multa1);
+        System.out.printf("O valor da multa aumentará caso ultrapasse qual quantidade de poluente?:");
         poluente2 = keyboard.nextDouble();
-
-        System.out.println("Entre " + poluente1 + " e " + poluente2 + " Digite o valor da multa: (MULTA 2)");
+        
+        System.out.print("Digite o valor da multa caso a quantidade de poluente emitido for entre " + poluente1 + " e " + poluente2 + ": ");  
         multa2 = keyboard.nextDouble();
 
-        System.out.println("Se a emissão de poluentes for maior que " + poluente2 + " Digite o valor da multa: (MULTA 3)");
+        System.out.print("Caso a emissão de poluentes ultrapassar " + poluente2 + " defina o valor da multa por poluente emitido:");
         multa3 = keyboard.nextDouble();
         
         System.out.println();
