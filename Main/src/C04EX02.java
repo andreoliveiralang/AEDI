@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 public class C04EX02 {
-public static void main(String[] argsg)
+public static void main(String[] args)
 {
     String nome, identidade, nomeEmpresa, cpf, salario;
     long tituloEleitor, carteiraMotorista;
