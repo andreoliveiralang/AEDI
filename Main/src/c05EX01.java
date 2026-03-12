@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 
-public class c05EX01 {
+public class C05EX01 {
     public static void main(String[] args){
         Double valordeX,valordeF;
 
