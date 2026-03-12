@@ -6,8 +6,8 @@
 import java.util.Scanner;
 public class C04EX03 
 {
-    public static void main(String[] args) 
     {
+        public static void main(String[] args) 
         Double poluente1,poluente2,multa1, multa2, multa3;
 
         Scanner keyboard = new Scanner (System.in);
@@ -20,7 +20,7 @@ public class C04EX03
 
         System.out.printf("O valor da multa aumentará caso ultrapasse qual quantidade de poluente?:");
         poluente2 = keyboard.nextDouble();
-        
+
         System.out.print("Digite o valor da multa caso a quantidade de poluente emitido for entre " + poluente1 + " e " + poluente2 + ": ");  
         multa2 = keyboard.nextDouble();
 

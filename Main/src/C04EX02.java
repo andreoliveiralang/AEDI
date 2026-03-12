@@ -45,5 +45,7 @@ public static void main(String[] argsg)
     System.out.println();
     System.out.println("Empresa:" + nomeEmpresa);
     System.out.println("Salario: R$" + salario );
+
+    keyboard.close();
 }
 }
