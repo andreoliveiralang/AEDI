@@ -4,24 +4,22 @@
 //Matricula:D29079
 
 import java.util.Scanner;
-
 public class C05EX01 {
     public static void main(String[] args){
-        Double valordeX,valordeF;
+        Double valorDeX,valorDeF;
 
         Scanner keyboard = new Scanner (System.in);
 
 
         System.out.print("informe o valor de X:");
-        valordeX = keyboard.nextDouble();
+        valorDeX = keyboard.nextDouble();
 
 
-        valordeF = (Math.pow(valordeX,3) + 4 * valordeX +10);
+        valorDeF = (Math.pow(valorDeX,3) + 4 * valorDeX +10);
 
-        System.out.print("resultado: " + valordeF);
+        System.out.print("resultado: " + valorDeF);
     
         keyboard.close();
-        
 
     } 
 }
