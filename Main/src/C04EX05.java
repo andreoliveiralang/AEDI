@@ -40,7 +40,7 @@ public class C04EX05 {
 
         JOptionPane.showMessageDialog(null,ficha,"FICHA FUNCIONAL",JOptionPane.INFORMATION_MESSAGE);
 
-
+        leitor.close(); //fecha o objeto Scanner para liberar os recursos associados à leitura do arquivo. É uma boa prática fechar o Scanner após o uso para evitar vazamentos de memória e garantir que os recursos sejam liberados adequadamente.
 
 
 

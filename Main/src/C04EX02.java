@@ -5,7 +5,7 @@
 
 import java.util.Scanner;
 public class C04EX02 {
-public static void main(String[] argsg)
+public static void main(String[] args)
 {
     String nome, identidade, nomeEmpresa, cpf, salario;
     long tituloEleitor, carteiraMotorista;
@@ -34,6 +34,7 @@ public static void main(String[] argsg)
     carteiraMotorista = keyboard.nextLong();
 
     System.out.println();
+    System.out.print("Ficha Funcional de: " + nome + "\n \n");
     System.out.println("Documentos:");
     System.out.print("CPF ................................... " + cpf);
     System.out.println();
