@@ -5,8 +5,12 @@
 
 import java.util.Scanner;
 public class C04EX03 {
+<<<<<<< HEAD
     
         public static void main(String[] args) {
+=======
+public static void main(String[] args) {
+>>>>>>> 93ad8f3f875af4cf31cefeedd82884197a7d7737
         Double poluente1,poluente2,multa1, multa2, multa3;
 
         Scanner keyboard = new Scanner (System.in);

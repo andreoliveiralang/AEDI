@@ -1,5 +1,3 @@
-
-
 //Nome: André Luiz De Oliveira Lang
 //Curso: Ciências da computação
 //Disciplina: Algoritmos e Estrutura de Dados I
