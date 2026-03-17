@@ -9,7 +9,7 @@ public class C05EX02 {
         
         Double valorDePi, valorDeRaio, area, volume;
 
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
         
         valorDePi = Math.PI;
 
@@ -21,7 +21,7 @@ public class C05EX02 {
 
         volume = 4.0/3.0 * valorDePi * Math.pow(valorDeRaio,3);
         System.out.printf("Volume = %.2f\n", volume);
-
-        keyboard.close();
-   }
+        
+        }    
+    }
 }

@@ -15,7 +15,7 @@ public class C04EX05 {
         File arquivo = new File("src/ficha.txt");
         
         //Cria um objeto Scanner para ler o conteúdo do arquivo "salario.txt". O Scanner é usado para processar o arquivo linha por linha ou palavra por palavra, dependendo da necessidade.
-        Scanner leitor = new Scanner(arquivo);
+        try (Scanner leitor = new Scanner(arquivo)) {
 
         String nome = leitor.nextLine(); //lê uma linha do arquivo e armazena na variável "nome". Presumivelmente, essa linha contém o nome do funcionário.
         String cpf = leitor.nextLine(); //lê a próxima linha do arquivo e armazena na variável "cpf". Presumivelmente, essa linha contém o CPF do funcionário.
@@ -40,10 +40,12 @@ public class C04EX05 {
 
         leitor.close(); //fecha o objeto Scanner para liberar os recursos associados à leitura do arquivo. É uma boa prática fechar o Scanner após o uso para evitar vazamentos de memória e garantir que os recursos sejam liberados adequadamente.
 
+        //no caso aqui usei uma forma mais profissional, que é adicionar o "TRY" antes do scanner para que ele feche automaticamente após acabar o bloco.//
+
+        //quando usamos o TRY, nao precisas fazer o "keyboard.close()", então nos próximos exercícios não vamos ver  este parâmetro.//
 
 
 
-
-
-    }       
-}
+        }
+    }
+}       

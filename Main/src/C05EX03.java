@@ -10,7 +10,7 @@ public class C05EX03 {
         double salario, liquido,impostoDeRenda;
         int nDependentes;
 
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
         
         
         System.out.print("Digite o valor do seu salário:");
@@ -27,6 +27,6 @@ public class C05EX03 {
         System.out.print(" e Dependentes = " + nDependentes);
         System.out.printf(" --> IR = %.0f\n", impostoDeRenda);
         
-        keyboard.close();
+        }
     }
 }

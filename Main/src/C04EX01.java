@@ -6,12 +6,10 @@
 import java.util.Scanner;
 public class C04EX01 {
     public static void main(String[] args){
-        String primeiroNome;
-        String segundoNome;
-        String sobrenome;
+        String primeiroNome,segundoNome,sobrenome;
         int idade;
 
-        Scanner keyboard = new Scanner(System.in);
+        try (Scanner keyboard = new Scanner(System.in)) {
 
         System.out.print("Digite seu nome:");
         primeiroNome = keyboard.nextLine();
@@ -30,8 +28,6 @@ public class C04EX01 {
         System.out.println(sobrenome + "," + primeiroNome + " " + segundoNome);
         System.out.println("Idade: " + idade + " anos ");
 
-        keyboard.close();
-
-
+        }
     }
 }

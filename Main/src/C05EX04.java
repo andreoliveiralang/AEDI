@@ -8,7 +8,7 @@ public class C05EX04 {
     public static void main (String[]args){
         double distancia, x1, y1, x2,y2;
         
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
 
         System.out.print("Digite X1:");
         x1 = keyboard.nextDouble();
@@ -25,5 +25,6 @@ public class C05EX04 {
         distancia = Math.sqrt( Math.pow(x1 - x2,2) + Math.pow(y1 - y2,2));  
         System.out.print("Distancia = " + distancia);
 
+        }
     }
 }

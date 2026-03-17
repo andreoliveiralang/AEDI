@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class C05EX05 {
     public static void main (String[]args){
         int celsius, kelvin , fahrenheit;
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
 
         System.out.print("Informe a temperatura em Celsius:");
         celsius = keyboard.nextInt();
@@ -19,6 +19,6 @@ public class C05EX05 {
 
         System.out.print("Celsius = " + celsius + " --> Kelvin = " + kelvin + " e Fahrenheit = " + fahrenheit);
 
-        keyboard.close();
+        }
     }
 }

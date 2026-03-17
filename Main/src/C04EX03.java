@@ -9,7 +9,7 @@ public class C04EX03 {
         public static void main(String[] args) {
         Double poluente1,poluente2,multa1, multa2, multa3;
 
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
 
         System.out.print("Defina um valor/quantidade de poluente emitido para gerar a primeira multa: ");
         poluente1 = keyboard.nextDouble();
@@ -48,7 +48,7 @@ public class C04EX03 {
 
         System.out.println();
            
-        keyboard.close();
-      
+
+        }
     }
 }

@@ -5,12 +5,11 @@
 
 import java.util.Scanner;
 public class C04EX02 {
-public static void main(String[] args)
-{
+public static void main(String[] args){
     String nome, identidade, nomeEmpresa, cpf, salario;
     long tituloEleitor, carteiraMotorista;
 
-    Scanner keyboard = new Scanner(System.in);
+    try (Scanner keyboard = new Scanner(System.in)){
 
     System.out.print("Digite seu nome:");
     nome = keyboard.nextLine();
@@ -27,7 +26,7 @@ public static void main(String[] args)
     System.out.print("Digite seu salario:");
     salario = keyboard.nextLine();
 
-    System.out.print("Digite o número do seu titúlo de eleitor:");
+    System.out.print("Digite o número do seu titulo de eleitor:");
     tituloEleitor = keyboard.nextLong();
 
     System.out.print("Digite o número da sua carteira de motorista:");
@@ -42,13 +41,12 @@ public static void main(String[] args)
     System.out.println();
     System.out.print("C.I ................................... " + identidade);
     System.out.println();
-    System.out.print("Titúlo de eleitor ..................... " + tituloEleitor);
+    System.out.print("Título de eleitor ..................... " + tituloEleitor);
     System.out.println();
     System.out.println("Carteira de motorista ................. " + carteiraMotorista);
     System.out.println();
     System.out.println("Empresa:" + nomeEmpresa);
     System.out.println("Salario: R$" + salario );
-
-    keyboard.close();
-}
+        }
+    }
 }

@@ -7,7 +7,7 @@ import java.util.Scanner;
 public class C05EX06 {
     public static void main (String[]args){
         double a, b ,c ,cordX, cordY, distancia;
-        Scanner keyboard = new Scanner (System.in);
+        try (Scanner keyboard = new Scanner (System.in)) {
 
     System.out.print("Insira o valor A da reta: ");
     a = keyboard.nextDouble();
@@ -27,7 +27,7 @@ public class C05EX06 {
     distancia = (a * cordX + b * cordY + c) / Math.sqrt(Math.pow(a ,2) + Math.pow(b,2)); //tem que cuidar muito com esses parenteses, parece que todos os numeradores tem que estar dentro do parenteses.
 
     System.out.print("D = " +distancia);
-    
 
+        }
     }
 }
