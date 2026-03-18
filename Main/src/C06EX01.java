@@ -8,32 +8,22 @@ public class C06EX01
 {
      public static void main (String [] args)
     {
-        double valorX;
+        double valorX, valorFX = 0;
         try (Scanner keyboard = new Scanner (System.in))
         {
             System.out.print("Informe o valor de X: ");
             valorX = keyboard.nextDouble();
 
             if (valorX < 4)
-                valorX = 5 * valorX +3 / Math.sqrt(16 - (Math.pow(valorX , 2 )));
+                valorFX = (5 * valorX +3) / (Math.sqrt(16 - (Math.pow(valorX , 2 ))));
+            else
+              if (valorX == 4) 
+                 valorFX = 0 ;
+             else
+              if (valorX > 4)
+                 valorFX = (5 * valorX + 3) / (Math.sqrt(Math.pow(valorX,2) -16));
 
-            if (valorX = 4)
-                valorX = 0;
-
-
-
-
-
-
-
-
-
-
-
-
-
-           
-
+            System.out.print("f(x) = " + valorFX);
         }
     }
 }
