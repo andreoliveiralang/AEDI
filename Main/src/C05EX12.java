@@ -17,7 +17,7 @@ public class C05EX12
 
             int d1 = seconds / 3600;       //hora
             int d2 = seconds % 3600 / 60;  //minutos
-            int d3 = seconds % 60;     //segundos
+            int d3 = seconds % 60;         //segundos
 
             hour = d1;
             minutes = d2;

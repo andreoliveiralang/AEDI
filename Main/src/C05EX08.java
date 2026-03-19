@@ -1,11 +1,11 @@
 
-import java.util.Scanner;
 
 //Nome: André Luiz De Oliveira Lang
 //Curso: Ciências da computação
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
 
+import java.util.Scanner;
 public class C05EX08{
     public static void main (String[]args){
         double valorS, valorA, raio, valorDePi;

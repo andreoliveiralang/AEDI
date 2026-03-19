@@ -3,7 +3,6 @@
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
 
-
 import java.util.Scanner;
 public class C05EX03 {
     public static void main (String[]args){
