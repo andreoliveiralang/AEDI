@@ -17,17 +17,15 @@ public class C06EX03
             System.out.print("Digite o valor de vandas para comissão: ");
             comissao = keyboard.nextDouble();
 
-            if (comissao <= 1000)
-            salario = 240;
+            if (comissao <= 1000){}
 
             else if (comissao <= 10000)
             salario = salario + ( comissao * 0.10);
 
-            else 
-                salario = comissao + 1000;
+            else salario += 1000; //esse "+=" é só uma forma curta de escrever: "salario = salario + 1000";
 
-                System.out.printf("Salário %.2f%n  = " , salario);
+                System.out.printf("Salário = %.2f " , salario);
                 
-            }      
-        }
+        }      
     }
+}
