@@ -23,7 +23,7 @@ public class C05EX12
             minutes = d2;
             seconds = d3 ;
 
-            System.out.print("Hour: " + hour + " Minutes: " + minutes + " Seconds: " + seconds);
+            System.out.print("Hour: " + hour + ", Minutes: " + minutes + ", Seconds: " + seconds);
 
         }
     }
