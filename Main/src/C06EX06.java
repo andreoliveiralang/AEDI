@@ -61,4 +61,4 @@ public class C06EX06
 
 //         -->   f(x) = Ax2 + Bx + C    -->  Raizes    -B ± v4
 //                                                       2A                                                       
-//         -->    ∆ = B(elevadoa2 - 4AC
+//         -->   A = B2 - 4AC

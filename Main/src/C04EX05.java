@@ -3,7 +3,7 @@
     //Disciplina: Algoritmos e Estrutura de Dados I
     //Matricula:D29079
 
-    import java.io.File;
+    import java.util.Locale;
     import java.util.Scanner;
     import javax.swing.JOptionPane;
     public class C04EX05 {
@@ -12,9 +12,11 @@
         public static void main(String[] args) throws Exception{
 
         //Localiza o arquivo "ficha.txt" no diretório do projeto.
-        File arquivo = new File("Main/src/ficha.txt");            
+                
+            Scanner leitor = new Scanner(C04EX05.class.getResourceAsStream("ficha.txt")).useLocale(Locale.US); 
+ 
             //Cria um objeto Scanner para ler o conteúdo do arquivo "salario.txt". O Scanner é usado para processar o arquivo linha por linha ou palavra por palavra, dependendo da necessidade.
-            try (Scanner leitor = new Scanner(arquivo)) {
+          
 
             String nome = leitor.nextLine(); //lê uma linha do arquivo e armazena na variável "nome". Presumivelmente, essa linha contém o nome do funcionário.
             String cpf = leitor.nextLine(); //lê a próxima linha do arquivo e armazena na variável "cpf". Presumivelmente, essa linha contém o CPF do funcionário.
@@ -47,4 +49,4 @@
 
             }
         }
-    }       
+         
