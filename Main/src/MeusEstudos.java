@@ -45,5 +45,93 @@ public class MeusEstudos {
            [ ] O "último else" tá sempre sozinho? (else { ... })
         */
 
+
+
+        /*
+========================================
+📌 RESUMO - CLASSE Math EM JAVA
+========================================
+
+A classe Math já vem pronta no Java e possui vários métodos úteis
+para fazer cálculos matemáticos. Não precisa importar.
+
+----------------------------------------
+🔢 POTÊNCIA (Math.pow)
+----------------------------------------
+Calcula a potência de um número.
+
+Sintaxe:
+Math.pow(base, expoente)
+
+Exemplo:
+double resultado = Math.pow(2, 3); // 2³ = 8.0
+
+Obs:
+- Sempre retorna double
+
+----------------------------------------
+√ RAIZ QUADRADA (Math.sqrt)
+----------------------------------------
+Calcula a raiz quadrada.
+
+Sintaxe:
+Math.sqrt(numero)
+
+Exemplo:
+double raiz = Math.sqrt(25); // 5.0
+
+Obs:
+- Só funciona com números positivos
+- Retorna double
+
+----------------------------------------
+🔽 ARREDONDAMENTO
+----------------------------------------
+
+Math.round() → arredonda normalmente
+Math.round(4.6); // 5
+Math.round(4.4); // 4
+
+Math.floor() → arredonda para baixo
+Math.floor(4.9); // 4.0
+
+Math.ceil() → arredonda para cima
+Math.ceil(4.1); // 5.0
+
+----------------------------------------
+🔺 VALOR ABSOLUTO (Math.abs)
+----------------------------------------
+Transforma número negativo em positivo.
+
+Exemplo:
+Math.abs(-10); // 10
+
+----------------------------------------
+🎲 NÚMERO ALEATÓRIO (Math.random)
+----------------------------------------
+Gera número entre 0.0 e 1.0
+
+Exemplo:
+Math.random(); // ex: 0.345
+
+Para gerar intervalo:
+int num = (int)(Math.random() * 10); // 0 a 9
+
+----------------------------------------
+📊 MÁXIMO E MÍNIMO
+----------------------------------------
+
+Math.max(10, 20); // 20
+Math.min(10, 20); // 10
+
+----------------------------------------
+⚠️ DICAS IMPORTANTES
+----------------------------------------
+- A classe Math é estática → não precisa criar objeto
+- A maioria dos métodos retorna double
+- Muito usada para cálculos em geral
+
+========================================
+*/
     } // Fecha o main
 } // Fecha a class
