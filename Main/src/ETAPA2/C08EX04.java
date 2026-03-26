@@ -22,6 +22,8 @@ public class C08EX03
 
             System.out.println("Digite sua Idade: ");
             idade = keyboard.nextInt();
+            
+            keyboard.nextLine();
 
             if (idade <= 18)
             idade = ;
