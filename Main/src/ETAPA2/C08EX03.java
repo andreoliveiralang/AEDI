@@ -7,12 +7,12 @@ package ETAPA2;
 
 import java.util.Scanner;
 
-public class C08EX02
+public class C08EX03
 {
      public static void main (String [] args)
     {   
         double nota;
-        int falta;
+        int falta, contAprovados = 0, contReprovados = 0;
         Scanner keyboard = new Scanner (System.in);
 
         for (int contador = 0; contador < 50; contador ++) 
@@ -29,15 +29,19 @@ public class C08EX02
             falta = keyboard.nextInt();
 
             if (nota >= 65 && falta <= 16) {
-                System.out.println("ALUNO APROVADO");
+                System.out.println("ALUNO APROVADO.");
+                contAprovados++;
             }
              else {
-                System.out.println("ALUNO REPROVADO");
+                System.out.println("ALUNO REPROVADO.");
+                contReprovados++;
             }
         }
-
-    
+        System.out.println("---------------------------------------");
+        System.out.println("Quantidade de Aprovados = " + contAprovados);
+        System.out.println("Quantidade de Reprovados = " + contReprovados);
+        System.out.println("---------------------------------------");
         
-        keyboard.close();
+keyboard.close();
     }
 }

@@ -19,8 +19,8 @@ public class C08EX01
             raio = keyboard.nextInt();
             area = Math.PI * Math.pow(raio, 2);
             System.out.println("O valor da área é: " + area);
+            System.out.println("Todas os valores calculados");
         }
-        System.out.println("Todas os valores calculados");
     
     
         keyboard.close();
