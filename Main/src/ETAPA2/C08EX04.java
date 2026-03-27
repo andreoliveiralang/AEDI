@@ -7,15 +7,15 @@ package ETAPA2;
 
 import java.util.Scanner;
 
-public class C08EX03
+public class C08EX04
 {
      public static void main (String [] args)
     {   
         String nome;
-        int idade,menorIdade, contAprovados = 0, contReprovados = 0;
+        int idade,menorIdade = 0, maiorIdade = 0;
         Scanner keyboard = new Scanner (System.in);
 
-        for (int contador = 0; contador < 3; contador ++) 
+        for (int repeticao = 0; repeticao < 5; repeticao ++) 
         {
             System.out.println("Digite seu nome: ");
             nome = keyboard.nextLine();
@@ -25,11 +25,19 @@ public class C08EX03
             
             keyboard.nextLine();
 
-            if (idade <= 18)
-            idade = ;
-
-
-            keyboard.close();
+            if (idade <= 18){
+                idade = menorIdade;
+                menorIdade++;}
+            
+            else{
+                idade = maiorIdade;
+                maiorIdade++;}     
         }
+        
+        System.out.println("---------------------------------------");
+        System.out.println("Até 18 = " + menorIdade);
+        System.out.println("Acima de 18 = " + maiorIdade);
+        System.out.println("---------------------------------------");
+        keyboard.close();
     }
 }

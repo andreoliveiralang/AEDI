@@ -11,33 +11,36 @@ public class C08EX02
 {
      public static void main (String [] args)
     {   
-        double nota;
-        int falta;
+        int nota,falta,frequencia;
+        String resultado;
+        
+        
         Scanner keyboard = new Scanner (System.in);
-
-        for (int contador = 0; contador < 50; contador ++) 
-        {
-
-            System.out.print("Digite a nota final (-1 para sair): ");
-            nota = keyboard.nextDouble();
-
-            if (nota == -1) {
-                break;
-            }
-
-            System.out.print("Digite o total de faltas: ");
-            falta = keyboard.nextInt();
-
-            if (nota >= 65 && falta <= 16) {
-                System.out.println("ALUNO APROVADO");
-            }
-             else {
-                System.out.println("ALUNO REPROVADO");
-            }
+        
+        for (int repeticao = 1; repeticao <= 50; repeticao ++){  
+            
+            System.out.print("Insira a nota: ");
+            nota = keyboard.nextInt();
+            
+            if (nota == -1 ){
+            break;
         }
 
-    
+            System.out.println("Insira a quantidade de faltas: ");
+            falta = keyboard.nextInt();
         
+           
+            if (nota >= 65 && falta <= 16){
+            resultado = "APROVADO";
+        }
+            else {
+            resultado = "REPROVADO";
+        }
+            
+            
+            System.out.println("ALUNO "+ resultado);}
+
         keyboard.close();
+        
     }
 }

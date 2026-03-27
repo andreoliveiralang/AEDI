@@ -4,6 +4,7 @@
 //Curso: Ciências da computação
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
+package ETAPA1;
 
 import java.util.Scanner;
 public class C05EX08{
