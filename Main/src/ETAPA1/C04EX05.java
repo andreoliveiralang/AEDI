@@ -1,4 +1,4 @@
-package ETAPA1;
+package etapa1;
 
     //Nome: André Luiz De Oliveira Lang
     //Curso: Ciências da computação

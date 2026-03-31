@@ -3,7 +3,7 @@
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
 
-package ETAPA2;
+package etapa2;
 
 import java.util.Scanner;
 
@@ -11,14 +11,13 @@ public class C08EX04
 {
      public static void main (String [] args)
     {   
-        String nome;
         int idade,menorIdade = 0, maiorIdade = 0;
         Scanner keyboard = new Scanner (System.in);
 
-        for (int repeticao = 0; repeticao < 5; repeticao ++) 
+        for (int repeticao = 0; repeticao <= 50; repeticao ++) 
         {
             System.out.println("Digite seu nome: ");
-            nome = keyboard.nextLine();
+            keyboard.nextLine();
 
             System.out.println("Digite sua Idade: ");
             idade = keyboard.nextInt();
