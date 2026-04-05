@@ -1,3 +1,8 @@
+//Nome: André Luiz De Oliveira Lang
+//Curso: Ciências da computação
+//Disciplina: Algoritmos e Estrutura de Dados I
+//Matricula:D29079
+
 package etapa2;
 import java.util.Scanner;
 
