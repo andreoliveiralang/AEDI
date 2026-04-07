@@ -39,3 +39,4 @@ public class C08EX06
         System.out.println(" Quantidade de números diviseveis por 3 é = " + quantidade);
     }
 }
+// exercicio 13 PROVA //
