@@ -4,7 +4,7 @@
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
 
-package ETAPA2;
+package etapa2;
 import java.util.Scanner;
 
 public class C08EX08 
@@ -15,7 +15,7 @@ public class C08EX08
 
         Scanner keyboard = new Scanner(System.in);
 
-        int nota,faltas,totalNotas=0, maisDe16f=0,aprovado=0, media;
+        int nota,faltas,totalNotas=0, maisDe16f=0,aprovado=0, media=0;
 
         for (int repeticao = 0; repeticao < 3; repeticao++) 
         {
@@ -27,47 +27,29 @@ public class C08EX08
 
             if (nota >= 65 && faltas <= 16){
                 aprovado++;
+                totalNotas = totalNotas + nota;
                 System.out.println("APROVADO");
-                totalNotas = totalNotas + aprovado;
             }
             else {
                 System.out.println("REPROVADO");
             }
 
-            if (faltas > 16)
+            if (faltas > 16){
             maisDe16f++;
-        
+            }
         }
 
-            if (aprovado <= 1){
-            media = aprovado;}
+            if (aprovado > 0){
+            media = totalNotas / aprovado;}
             
-            else if
-            (aprovado > 1)
-            media = aprovado / 3;
+            else {
+            media = 0;
+            }
             
         System.out.println("__________________________________________");
         System.out.println("Média das notas dos aprovados = "+ media);
 
-        System.out.println("Quantidade de alunos com mais de 16 faltas" + maisDe16f);
-        
-
-
-
-
-        
-
-
-
-
-
-
-
-
-            
-
-        
-
-
+        System.out.println("Quantidade de alunos com mais de 16 faltas = " + maisDe16f);
+    
     }
 }
