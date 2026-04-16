@@ -4,7 +4,7 @@
 //Disciplina: Algoritmos e Estrutura de Dados I
 //Matricula:D29079
 
-package etapa2;
+package ETAPA2;
 import java.util.Scanner;
 
 public class C08EX08 

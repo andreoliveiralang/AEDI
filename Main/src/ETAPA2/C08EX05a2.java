@@ -1,4 +1,4 @@
-package etapa2;
+package ETAPA2;
 import java.util.Scanner;
 
 public class C08EX05a2 {

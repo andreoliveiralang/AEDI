@@ -1,6 +1,6 @@
 // --- MINHAS ANOTAÇÕES DE ALGORITMOS (André - CC) ---
 // FOCO: UX ENGINEER | NÃO ESQUECER AS CHAVES!
-package etapa1;
+package ETAPA1;
 
 import javax.swing.JOptionPane;
 

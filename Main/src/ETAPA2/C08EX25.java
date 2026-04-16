@@ -6,10 +6,9 @@
 package ETAPA2;
 public class C08EX25
 {
-    public static void main(String[] args) 
+    public static void main(String[] args)
     {
         String asteris = "*";
-        for (int aux3 = 1; aux3 <=1; aux3 ++)
         {
             for (int aux2=1; aux2 <=10; aux2++)
             {
@@ -24,5 +23,5 @@ public class C08EX25
                 System.out.println();
             }
         }
-    }   
+    }  
 }
