@@ -39,6 +39,7 @@ public class C06EX17
                 resultado = naoApto;
 
             if (pergunta6 == 0 || pergunta6 == 2)           // &&= e ||= ou
+            
                 resultado = naoApto;
 
             if (pergunta7 == 1 || pergunta7 == 2)
