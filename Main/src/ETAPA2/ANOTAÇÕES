@@ -11,4 +11,23 @@ todos os termos variam de forma lógica, teremos que pensar para descobrir o pro
 
 se nao tiver reticencia (...) , é finita.
 
-EXEMPLO SERIE PROVA   ''EXEMPLO 3''
+EXEMPLO SERIE PROVA  ''EXEMPLO 3''
+TREINAR EXEMPLO 3
+
+EXERCICIO 11 - LISTA 2 vai cair na prova
+
+SEQUENCIAS NÚMERICAS
+
+1° dica =  se variar constante 
+aux*N+ ou - AJUSTE.
+
+2° dica = ajuste e diferente do da dica 1 
+
+3° dica = Math.pow (aux+ ou - ajuste para o 1° termo, N)
+
+
+
+
+o N aqui vai ser o numero pequeno do elevado.
+
+temos que descobrir qual numero elevado a
