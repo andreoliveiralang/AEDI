@@ -8,7 +8,7 @@ public class C09EX02 {
    double num, den, serie=0;
    for (int aux=1; aux<= 100; aux++) {  // ? = quantidade de termos da série
      num = aux ;//? = implementação da variação do numerador
-     den = aux * 1-1;//? = implementação da variação do denominador
+     den = aux * aux + (aux - 1)  ;//? = implementação da variação do denominador
      serie += num / den;
    }
    

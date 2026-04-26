@@ -31,3 +31,41 @@ aux*N+ ou - AJUSTE.
 o N aqui vai ser o numero pequeno do elevado.
 
 temos que descobrir qual numero elevado a
+
+ ==============================================================================
+  ANOTAÇÕES DE ALGORITMOS: SÉRIES E SEQUÊNCIAS (DOM HELDER - ANDRÉ)
+ ==============================================================================
+  [RESUMO DE LÓGICA PARA SÉRIES]
+  1. Definir o número de termos (nTermos).
+  2. Criar um acumulador: double serie = 0;
+  3. Loop: for (int aux = 1; aux <= nTermos; aux++)
+  4. Montar a fração peça por peça (num e den).
+  5. Somar: serie += num / den;
+  ------------------------------------------------------------------------------
+ [DICAS DO PROFESSOR - COMO MONTAR O TERMO GERAL]
+  ------------------------------------------------------------------------------
+  DICA 1: VARIAÇÃO CONSTANTE (PULA DE N EM N)
+  -> Fórmula: (aux * N) ± AJUSTE
+  -> Exemplo: 2, 6, 10, 14... (Pula de 4 em 4)
+  Cálculo: (aux * 4) - 2
+  DICA 2: VARIAÇÃO NÃO CONSTANTE (BASE FIXA - EXPONENCIAL)
+  -> Quando o número dobra, triplica, etc.
+  -> Fórmula: Math.pow(N, aux) ± AJUSTE
+  DICA 3: VARIAÇÃO NÃO CONSTANTE (BASE VARIÁVEL - POTÊNCIA)
+  -> Quando é o contador que está elevado a algo.
+  -> Fórmula: Math.pow(aux, N) ± AJUSTE
+  ------------------------------------------------------------------------------
+ [EXERCÍCIOS RESOLVIDOS]
+  ------------------------------------------------------------------------------
+  EXERCÍCIO 2:
+  Série: 1/(1+0) + 2/(4+1) + 3/(9+2) + 4/(16+3)...
+  -> Numerador: aux
+  -> Denominador Parte 1: Math.pow(aux, 2)  [Sequência: 1, 4, 9, 16...]
+  -> Denominador Parte 2: aux - 1            [Sequência: 0, 1, 2, 3...]
+  EXERCÍCIO 4:
+  Série: sqrt( (1x2)/(3x4) + (5x6)/(7x8) + (9x10)/(11x12)... )
+  -> Lógica do Pulo de 4 em 4 (Dica 1 aplicada):
+  - Num Parte 1: (aux * 4 - 3) -> Resulta em 1, 5, 9...
+  - Num Parte 2: (aux * 4 - 2) -> Resulta em 2, 6, 10...
+  - Den Parte 1: (aux * 4 - 1) -> Resulta em 3, 7, 11...
+  - Den Parte 2: (aux * 4)     -> Resulta em 4, 8
