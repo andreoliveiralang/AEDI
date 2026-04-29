@@ -68,3 +68,24 @@ temos que descobrir qual numero elevado a
  Math.pow(N°, 1.0/6.0) -> RAIZ SEXTA
  ...
  ..
+
+
+
+
+ tudo que faemos com 'while' fazemos com 'do while'
+ dica, use somente o 'do while'
+
+ prova , vao estar misturados pra usar while e forma
+ tag 'CONTINUE' é tipo o 'BREAK', porem ele volta
+ tag 'HASNEXTLINE' para arquivos txt, enquanto houver linhas leia.
+
+ EXERCICIO '2A' CONTEUDO 9 É A CARA DA PROVA
+ a - for
+ b - do while
+ c - ?
+ se expurga ou não o flag
+
+
+ prova - decomposição númerica
+         série matematica
+         ex: 5 6 7 8 - capitulo 9
