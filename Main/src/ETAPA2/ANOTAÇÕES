@@ -69,7 +69,16 @@ temos que descobrir qual numero elevado a
  ...
  ..
 
+--------------------------------------------------------------------------------
+                        SIGNIFICADO DO +=
+  
+  Forma Extensa                             Abreviação (+=)
 
+  soma = soma + i                               soma += i
+  x = x + 10                                    x += 10
+  texto = texto + "!"                           texto += "!"
+
+___________________________________________________________________________________
 
 
  tudo que faemos com 'while' fazemos com 'do while'

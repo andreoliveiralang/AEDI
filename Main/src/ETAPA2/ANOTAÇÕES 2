@@ -1,0 +1,32 @@
+COMO ACUMULAR VALORES
+
+Para acumular valores dentro de um loop, você precisa de uma variável fora do for. Se você declarar ela dentro, toda vez que o loop rodar, ela será resetada e você vai perder o valor anterior. não cometa esse erro.
+
+Pense na variável acumuladora como um balde. O loop é você pegando uma caneca de água (o salário) por vez e jogando dentro do balde. No final, o balde tem toda a água somada.
+
+O Passo a Passo do Acúmulo:
+Declare a variável soma antes do loop e comece ela com 0 (zero é o elemento neutro da soma).
+
+Dentro do loop, você lê o salário.
+
+Atualize a soma: Use o operador +=. Ele diz: "o valor atual da soma recebe ele mesmo mais o novo salário".
+
+Calcule a média fora do loop: Só depois que você tiver o total de todos os 5 trabalhadores é que você divide pela quantidade.
+
+// Exemplo em código:
+
+        double somaSalarios = 0; // O balde começa vazio
+        int totalTrabalhadores = 5;
+
+        for (int i = 1; i <= totalTrabalhadores; i++) {
+            System.out.print("Digite o salário do trabalhador " + i + ": ");
+            double salario Individual = keyboard.nextDouble();
+            
+            // O PULO DO GATO: ACUMULAR
+            somaSalarios += salarioIndividual; 
+            // É o mesmo que: somaSalarios = somaSalarios + salarioIndividual;
+        }
+
+        // A MÉDIA É FORA DO LOOP
+        double media = somaSalarios / totalTrabalhadores;
+        System.out.println("A média é: " + media);
