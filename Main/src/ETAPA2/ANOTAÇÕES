@@ -63,7 +63,7 @@ temos que descobrir qual numero elevado a
 ------------------------------------------------------------------------------
  PARA FAZER RAIZ DE QUALQUER NUMERO:
  
- Math.pow(N°, 1.0/3.0) -> RAIZ CÚBICA
+ Math.pow(N°, 1.0/3.0) -> RAIZ CÚBICA - .Math.cbrt
  Math.pow(N°, 1.0/5.0) -> RAIZ QUINTA
  Math.pow(N°, 1.0/6.0) -> RAIZ SEXTA
  ...
@@ -89,3 +89,51 @@ temos que descobrir qual numero elevado a
  prova - decomposição númerica
          série matematica
          ex: 5 6 7 8 - capitulo 9
+
+
+
+
+
+_____________________________________________________________________
+
+         CUIDAR USO DE PARENTESES
+
+         !! DECOMPOSIÇÃO NUMERICA , fazer calculo com os numeros extraidos. - VAI CAIR
+
+         -- trazer anotado -- como extrair os numeros decomposição.
+_____________________________________________________________________
+
+         !! SERIES MATEMATICA , tranquilo ,mas revisar e fazer mais exercicios.
+
+         cuidar para nao deixar a primeira "?" com o valor do teste, e deixar com o valor que o exercici0o pede.
+
+         começar aux sempre em 1 
+____________________________________________________________________
+
+        !! COMANDO FOR , o mais pegado até agora
+        somatario, média
+        soma é double nao precisa de.0 se for int tem que por .0
+
+        **pesquisa gasolina, qual maior valor.
+
+        vai cobrar sobre pedir o nome do maior posto.
+
+        para mostrar o posto que tenha mesmo valor do primeiro tem que colocar +=
+        
+
+        
+        variando de 2 em 2 = x+=2 = for (int aux=1; aux<=10; aux+=2)
+        variando de 3 em 3 + x+=3 = for (int aux=1; aux<=10; aux+=3)
+        variando de 4 em 4 + x+=4 = for (int aux=1; aux<=10; aux+=4)
+_____________________________________________________________________
+      !! DO WHILE E WHILE, sei zero
+      flag real - flag ficticio
+
+      as vezes é bom usa joptionpane
+
+      gasolina mais cara e mais barata usando dowhile
+
+      
+
+
+
