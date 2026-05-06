@@ -1,0 +1,10 @@
+for (int aux=1; aux<=rep; aux++) {
+        System.out.print("Informe um número inteiro: ");
+        numero = teclado.nextInt();
+        soma += numero;
+     }
+     media = (float) soma / rep;
+     System.out.println("A média deu "+media);
+     teclado.close();
+
+     // SE FOR UM NUMERO INTEIRO E TIVER QUE PEGAR A MEDIA EU TENHO QUE COLOCAR ESSE FLOAT POIS É ELE QUE VAI FAZER O SOMA QUE TINHA QUE RECEBER EM INTEIRO (POIS O PROGRAMA PEDE PARA RECEBER EM INTEIRO), ELE QUE VAI FAZER O PROGRAMA CALCULAR COM VIRGULA

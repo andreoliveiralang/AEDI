@@ -1,0 +1,121 @@
+
+
+        // ================================
+        // 🔹 1 DÍGITO
+        // ================================
+
+        int numero1 = 1;
+
+        int d1_1 = numero1 % 10;
+        System.out.println(d1_1);
+
+
+        // ================================
+        // 🔹 2 DÍGITOS
+        // ================================
+
+        int numero2 = 12;
+
+        int d1_2 = numero2 / 10;
+        int d2_2 = numero2 % 10;
+
+        System.out.println(d1_2);
+        System.out.println(d2_2);
+
+
+        // ================================
+        // 🔹 3 DÍGITOS
+        // ================================
+
+        int numero3 = 123;
+
+        int d1_3 = numero3 / 100;
+        int d2_3 = numero3 / 10 % 10;
+        int d3_3 = numero3 % 10;
+
+        System.out.println(d1_3);
+        System.out.println(d2_3);
+        System.out.println(d3_3);
+
+
+        // ================================
+        // 🔹 4 DÍGITOS
+        // ================================
+
+        int numero4 = 1234;
+
+        int d1_4 = numero4 / 1000;
+        int d2_4 = numero4 / 100 % 10;
+        int d3_4 = numero4 / 10 % 10;
+        int d4_4 = numero4 % 10;
+
+        System.out.println(d1_4);
+        System.out.println(d2_4);
+        System.out.println(d3_4);
+        System.out.println(d4_4);
+
+
+        // ================================
+        // 🔹 5 DÍGITOS
+        // ================================
+
+        int numero5 = 12345;
+
+        int d1_5 = numero5 / 10000;
+        int d2_5 = numero5 / 1000 % 10;
+        int d3_5 = numero5 / 100 % 10;
+        int d4_5 = numero5 / 10 % 10;
+        int d5_5 = numero5 % 10;
+
+        System.out.println(d1_5);
+        System.out.println(d2_5);
+        System.out.println(d3_5);
+        System.out.println(d4_5);
+        System.out.println(d5_5);
+
+
+        // ================================
+        // 🔹 6 DÍGITOS
+        // ================================
+
+        int numero6 = 123456;
+
+        int d1_6 = numero6 / 100000;
+        int d2_6 = numero6 / 10000 % 10;
+        int d3_6 = numero6 / 1000 % 10;
+        int d4_6 = numero6 / 100 % 10;
+        int d5_6 = numero6 / 10 % 10;
+        int d6_6 = numero6 % 10;
+
+        System.out.println(d1_6);
+        System.out.println(d2_6);
+        System.out.println(d3_6);
+        System.out.println(d4_6);
+        System.out.println(d5_6);
+        System.out.println(d6_6);
+
+
+        // ================================
+        // 🔹 7 DÍGITOS
+        // ================================
+
+        int numero7 = 1234567;
+
+        int d1_7 = numero7 / 1000000;
+        int d2_7 = numero7 / 100000 % 10;
+        int d3_7 = numero7 / 10000 % 10;
+        int d4_7 = numero7 / 1000 % 10;
+        int d5_7 = numero7 / 100 % 10;
+        int d6_7 = numero7 / 10 % 10;
+        int d7_7 = numero7 % 10;
+
+        System.out.println(d1_7);
+        System.out.println(d2_7);
+        System.out.println(d3_7);
+        System.out.println(d4_7);
+        System.out.println(d5_7);
+        System.out.println(d6_7);
+        System.out.println(d7_7);
+    }
+}
+

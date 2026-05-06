@@ -6,7 +6,7 @@ public class C08EX21 {
         public static void main(String[] args) 
     {    
         Scanner keyboard = new Scanner(System.in);
-        Double altura, imc=0.;
+        double altura, imc = 0;
         
         System.out.println("Informe sua altura em metros = ");
         altura = keyboard.nextDouble();
