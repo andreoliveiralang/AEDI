@@ -1,0 +1,18 @@
+conteúdo 12 - 12/05
+
+- vetor - 
+proxima prova tera que ter lista de dados.
+fazer exercicio 1 a 4.
+fazwer exercicio 4 a 14
+sempre vai ter for inicial para prencher vetor
+
+
+
+conteudo - 12/05 
+BOOBLE SORT - METODO DA BOLHA - vai cair na prova - ctrl c ctrl v
+sempre tem que for para prencher lista,vetor.
+ordem crescente >
+ordem dscrescente <
+
+para comparaçao de streings (compareToIgnoreCase) ((NOME[x].compareToIgnoreCase(NOME[x+1])>0) )
+EXEMPLO 8 CAIRA NA PROVA

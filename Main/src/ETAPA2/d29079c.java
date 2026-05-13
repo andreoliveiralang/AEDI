@@ -1,8 +1,3 @@
-//Nome: André Luiz De Oliveira Lang
-//Curso: Ciências da computação
-//Disciplina: Algoritmos e Estrutura de Dados I
-//Matricula:D29079
-
 package ETAPA2;
 
 import java.util.Scanner;
@@ -46,9 +41,11 @@ public class d29079c {
 
         
 
+
+
         //CALCULO
         notaFinal= (nota1 + nota2 * 2 + nota3 * 3 + notaTrabalhoF) /7;
-        somaNotasF += notaFinal;
+        somaNotasF+=notaFinal;
 
         mediaTrabalhos=somaNotaTrabalhos/totalAlunos;//fazendo a média dos trabalhos.
         mediaNotasF=somaNotasF/totalAlunos; //fazendo a média das notas Finais.
