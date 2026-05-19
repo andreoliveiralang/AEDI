@@ -20,13 +20,14 @@ public class C12EX01 {
             valoresInteiros[rep] = keyboard.nextInt();
         }
 
+        System.out.print("Valores maiores que 5 e menores que 10: ");
+
         for (int rep=0; rep < valoresInteiros.length; rep++) {
-            if (valoresInteiros[rep] % 5 == 0 && valoresInteiros[rep] % 7 == 0 ) {
-                contador++;
+            if (valoresInteiros[rep] > 5 && valoresInteiros[rep] < 10 ) {
+                
+                System.out.print(valoresInteiros[rep] + " ");
             }
         }
-        
-       System.out.println("Quantidade de divisores de 5 e 7 ao mesmo tempo: " + contador);
         
         keyboard.close();
     }
