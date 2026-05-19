@@ -2,7 +2,7 @@
 //Matricula:D29079
 
 import java.util.Scanner;
-public class D29079C
+public class E1_D29079C
 {
      public static void main (String [] args)
     {  
