@@ -14,5 +14,48 @@ sempre tem que for para prencher lista,vetor.
 ordem crescente >
 ordem dscrescente <
 
-para comparaçao de streings (compareToIgnoreCase) ((NOME[x].compareToIgnoreCase(NOME[x+1])>0) )
+para comparaçao de strings (compareToIgnoreCase) ((NOME[x].compareToIgnoreCase(NOME[x+1])>0) )
 EXEMPLO 8 CAIRA NA PROVA
+
+conteudo - 20/05
+aula de exercícios.
+IMPORTANTE 
+26 27 e 28 = tenho saber fazer de cór VAI CAIR NA PROVA
+Não irá cobrar matriz, mas vai cobrar vetor,lista dinamica, pesquisa. 
+
+Lista dinâmica
+
+Lista dinâmica para dados que não sabemos a quantidade exata de dados.
+Vetor caso soubermos a quantidade.
+Listas, como vimos no exemplo de lanches em python.
+
+Para trabalhar om lista dinâmica tem que importar:
+-	import java.util.ArrayList;
+-	import java.util.List;
+
+size() é a mesma coisa de lenght – nada mais é que o tamanho do vetor
+
+para adicionar na lista, em posição final da lista,  usamos: 
+LISTA.add("Ricardo");
+Para adicionar na lista em posição especifica ,usamos:
+LISTA.add(2,nome);
+Vai ser inserido na posição 2
+Dica professor - Colocar sempre no final.
+------------------------
+Para atualizar um valor usar o comando .set
+LISTA.set(1,"Pedro");
+Ele substitui o outro nome que vai estar la.
+
+Size é exatamente o mesmo que lenght
+Size -1 é igual a ultima posição da lista dinâmica
+
+Get - pega o item  para fazer algo com ele.
+
+
+Comando .remove intuitivo 
+LISTA.remove (LISTA.size( )-1); remove o ultimo item da lista
+LISTA.remove(1); remove o segundo item da lista
+
+LISTA.clear(); remove todos os itens da lista	
+
+Comando .indexOF(“Ricardo” – procura o texto na lista, pra saber onde ele esta na lista, se der -1 NÃO ENCONTROU.
