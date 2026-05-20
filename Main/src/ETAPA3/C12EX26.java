@@ -34,18 +34,18 @@ public class C12EX26 {
         double indice = keyboard.nextDouble();
 
         // c) Reajustar os salários menores que R$1000
-        for (int i = 0; i < listaSalarios.size(); i++) {
-            double salarioAtual = listaSalarios.get(i);
+        for (int aux = 0; aux < listaSalarios.size(); aux++) {
+            double salarioAtual = listaSalarios.get(aux);
             if (salarioAtual < 1000.0) {
                 double novoSalario = salarioAtual * (1 + indice);
-                listaSalarios.set(i, novoSalario);
+                listaSalarios.set(aux, novoSalario);
             }
         }
 
         // d) Imprimir as duas listas de forma sincronizada
         System.out.println("\n--- Lista de Funcionários Atualizada ---");
-        for (int i = 0; i < listaNomes.size(); i++) {
-            System.out.printf("Nome: %s - Salário: R$ %.2f%n", listaNomes.get(i), listaSalarios.get(i));
+        for (int aux = 0; aux < listaNomes.size(); aux++) {
+            System.out.printf("Nome: %s - Salário: R$ %.2f%n", listaNomes.get(aux), listaSalarios.get(aux));
         }
 
         keyboard.close();
