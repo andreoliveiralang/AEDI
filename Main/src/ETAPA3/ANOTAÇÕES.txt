@@ -6,7 +6,7 @@ fazer exercicio 1 a 4.
 fazwer exercicio 4 a 14
 sempre vai ter for inicial para prencher vetor
 
-
+=========================================================================================================
 
 conteudo - 12/05 
 BOOBLE SORT - METODO DA BOLHA - vai cair na prova - ctrl c ctrl v
@@ -17,10 +17,13 @@ ordem dscrescente <
 para comparaçao de strings (compareToIgnoreCase) ((NOME[x].compareToIgnoreCase(NOME[x+1])>0) )
 EXEMPLO 8 CAIRA NA PROVA
 
+=========================================================================================================
+
 conteudo - 20/05
 aula de exercícios.
 IMPORTANTE 
-26 27 e 28 = tenho saber fazer de cór VAI CAIR NA PROVA
+⭐   26 27 e 28  = tenho saber fazer de cór VAI CAIR NA PROVA   ⭐
+
 Não irá cobrar matriz, mas vai cobrar vetor,lista dinamica, pesquisa. 
 
 Lista dinâmica
@@ -51,11 +54,29 @@ Size -1 é igual a ultima posição da lista dinâmica
 
 Get - pega o item  para fazer algo com ele.
 
-
 Comando .remove intuitivo 
 LISTA.remove (LISTA.size( )-1); remove o ultimo item da lista
 LISTA.remove(1); remove o segundo item da lista
 
 LISTA.clear(); remove todos os itens da lista	
 
-Comando .indexOF(“Ricardo” – procura o texto na lista, pra saber onde ele esta na lista, se der -1 NÃO ENCONTROU.
+Comando .indexOF “Ricardo” – procura o texto na lista, pra saber onde ele esta na lista, se der -1 NÃO ENCONTROU.
+
+=========================================================================================================
+
+conteudo 13 - 26/05
+
+⭐ VAI CAIR NA PROVA = prova vai ter exercicio tipo a 1 ou 2 do conteudo 13 ⭐
+
+
+se vc quiser se especializar em uma programaçao, conheça a bibliotecas disponiveis
+
+Exercício 6 - usar index off
+
+⭐ Exercicio 6,7,8 e 9 ja foi cobrado em prova - ⭐ 
+
+⭐ Vetor, lista dinmicas, métodos e coisas ligadas a STRING ⭐
+
+⭐ oque mais leva em conta no trabalho é comparação da linguagem em JAVA  
+
+    onde surgiu, como, porque ⭐

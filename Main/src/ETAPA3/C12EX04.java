@@ -5,38 +5,22 @@ import java.util.Scanner;
 public class C12EX04 {
     public static void main(String[] args) 
     {
-
         Scanner keyboard = new Scanner(System.in);
-        int numeroAleatorio;
-        int palpite, tentativas=0;
+        int bat1[] = new int [20]; 
+        int bat2[] = new int [10];
+        int cont=0;
 
-        System.out.println("Descubra um número entre 0 e 100!");
-        numeroAleatorio = (int) (Math.random() * 100) +1;
-        System.out.println(numeroAleatorio);
-
-        do{
-            System.out.println("tente até acertar!\n");
-            palpite = keyboard.nextInt();
-            tentativas++;
+    System.out.println("Registro de chegada 1° Bateria:");
+        for (int aux=1; aux<bat1.length; aux++){
+            System.out.println("Digite o número do corredor que chegou em " + aux + "° lugar: ");
+            bat1[aux] = keyboard.nextInt();
 
             
-            if (numeroAleatorio != palpite){
-                System.out.println("ERROU!");
-                
-                
-            if (palpite < numeroAleatorio)
-                System.out.println("DICA: O número é MAIOR");
-            
-            else if (palpite > numeroAleatorio)
-                System.out.println("DICA: O número é MENOR!");
-
         }
-        
-        } while (palpite != numeroAleatorio);
-        System.out.println("Parabéns você acertou!\n");
-        System.out.println("E precisou de " + tentativas +" tentativas");
-         
+        System.out.println(" Ordem de chegada 2° Bateria:");
+        for (int aux=0;aux<20;aux++){
+           int
+       
     }
-}
 
 

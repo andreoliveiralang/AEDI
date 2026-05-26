@@ -1,33 +1,24 @@
-//Nome: André Luiz De Oliveira Lang
-//Curso: Ciências da computação
-//Disciplina: Algoritmos e Estrutura de Dados I
-//Matricula:D29079
-
 package ETAPA3;
 
 import java.util.Scanner;
 
 public class C12EX01 {
-     public static void main(String[] args) {
+       public static void main(String[] args) 
+    {
 
         Scanner keyboard = new Scanner(System.in);
+        int vet[] = new int [10]; 
+        int cont=0;
 
-        int valoresInteiros[] = new int [10];
-        int contador =0;
 
-        for (int rep=0; rep < valoresInteiros.length; rep ++){
-            System.out.println("Digite um valor númerico inteiro : ");
-            valoresInteiros[rep] = keyboard.nextInt();
-        }
-
-        System.out.print("Valores maiores que 5 e menores que 10: ");
-
-        for (int rep=0; rep < valoresInteiros.length; rep++) {
-            if (valoresInteiros[rep] > 5 && valoresInteiros[rep] < 10 ) {
-                
-                System.out.print(valoresInteiros[rep] + " ");
+        for (int aux=0; aux<vet.length; aux++){
+            System.out.println("Digite um número inteiro: ");
+            vet[aux] = keyboard.nextInt();
+            if (vet[aux] % 5 == 0 && vet[aux] % 7 == 0){
+                cont++;
             }
         }
+        System.out.println("Quantidade de números divisíveis por 5 e 7: " + cont);
         
         keyboard.close();
     }
