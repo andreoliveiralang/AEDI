@@ -11,9 +11,10 @@ public class C12EX26 {
         
         List<String> listaNomes = new ArrayList<>();
         List<Double> listaSalarios = new ArrayList<>(); // Double para salário
+        Double indice,salarioAtual,novoSalario;
         
         // a) Preencher as duas listas de forma sincronizada
-        while (true) {
+        while (true) { //cria um looping infinito, até alguem BREKAR, la em baixo.
             System.out.print("Digite um nome (X para encerrar): ");
             String nome = keyboard.nextLine();
             
@@ -31,13 +32,14 @@ public class C12EX26 {
 
         // b) Pedir um índice de reajuste salarial (ex: 0.10 para 10%)
         System.out.print("\nInforme o índice de reajuste salarial (ex: 0,10 para 10%): ");
-        double indice = keyboard.nextDouble();
+        indice = keyboard.nextDouble();
 
         // c) Reajustar os salários menores que R$1000
         for (int aux = 0; aux < listaSalarios.size(); aux++) {
-            double salarioAtual = listaSalarios.get(aux);
-            if (salarioAtual < 1000.0) {
-                double novoSalario = salarioAtual * (1 + indice);
+            salarioAtual = listaSalarios.get(aux);
+
+            if (salarioAtual <  1000.0) {
+                novoSalario = salarioAtual * (1 + indice);
                 listaSalarios.set(aux, novoSalario);
             }
         }
@@ -45,7 +47,7 @@ public class C12EX26 {
         // d) Imprimir as duas listas de forma sincronizada
         System.out.println("\n--- Lista de Funcionários Atualizada ---");
         for (int aux = 0; aux < listaNomes.size(); aux++) {
-            System.out.printf("Nome: %s - Salário: R$ %.2f%n", listaNomes.get(aux), listaSalarios.get(aux));
+            System.out.println("Nome: " + listaNomes.get(aux) + " - Salário: R$ " + listaSalarios.get(aux));
         }
 
         keyboard.close();
