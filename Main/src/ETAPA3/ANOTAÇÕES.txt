@@ -9,13 +9,13 @@ sempre vai ter for inicial para prencher vetor
 =========================================================================================================
 
 conteudo - 12/05 
-BOOBLE SORT - METODO DA BOLHA - vai cair na prova - ctrl c ctrl v
+BOOBLE SORT - ⭐ METODO DA BOLHA - vai cair na prova - ⭐  ctrl c ctrl v
 sempre tem que for para prencher lista,vetor.
 ordem crescente >
 ordem dscrescente <
 
 para comparaçao de strings (compareToIgnoreCase) ((NOME[x].compareToIgnoreCase(NOME[x+1])>0) )
-EXEMPLO 8 CAIRA NA PROVA
+⭐  EXEMPLO 8 CAIRA NA PROVA  ⭐
 
 =========================================================================================================
 
@@ -77,6 +77,14 @@ Exercício 6 - usar index off
 
 ⭐ Vetor, lista dinmicas, métodos e coisas ligadas a STRING ⭐
 
-⭐ oque mais leva em conta no trabalho é comparação da linguagem em JAVA  
+== oque mais leva em conta no trabalho é comparação da linguagem em JAVA  
 
-    onde surgiu, como, porque ⭐
+    onde surgiu, como, porque ==
+
+=========================================================================================================
+conteudo 15 - 25/05
+peguei de construtor
+
+oque tem this é tributo, oque nao tem é parametro
+
+

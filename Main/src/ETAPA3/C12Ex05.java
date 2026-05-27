@@ -1,33 +1,33 @@
+//Nome: André Luiz De Oliveira Lang
+//Curso: Ciências da computação
+//Disciplina: Algoritmos e Estrutura de Dados I
+//Matricula:D29079
+
 package ETAPA3;
 
 import java.util.Scanner;
 
-public class C12Ex05 {
-    
+public class C12EX05 
+{
     public static void main(String[] args) 
     {
-
         Scanner keyboard = new Scanner(System.in);
+        int num[] = new int [10]; 
 
-        double angulo,radiano,seno,cosseno,tangente,arcoCosseno,arcoSeno,arcoTangente;
         
-       System.out.println("Infoirme um ângulo em graus:");
-       angulo = keyboard.nextDouble();
+        for (int aux=0; aux<num.length; aux++)
+        {
+            System.out.println("Digite 10 valores númericos inteiros: ");
+            num[aux] = keyboard.nextInt();
+        }
 
-       radiano = angulo * (Math.PI/180);
-       seno = Math.sin(radiano);
-       cosseno = Math.cos(radiano);
-       tangente = Math.tan(radiano);
+            for  (int aux= num.length-1; aux>= 0; aux--)
+            {
+                System.out.print(num[aux]%3 + " ");
 
-       arcoSeno = 1/seno;
-       arcoCosseno = 1/cosseno;
-       arcoTangente = 1/tangente;
-    
-        System.out.println("Seno = "+ seno + "\nCosseno = " +cosseno + " \nTangente = "+ tangente);
-        System.out.println();
-        System.out.println("Arco Seno = "+ arcoSeno + "\nArco Cosseno = " +arcoCosseno + " \nArco Tangente = "+ arcoTangente);
-    
-    
-       keyboard.close();
+                keyboard.close();
+            }
+        
     }
 }
+
