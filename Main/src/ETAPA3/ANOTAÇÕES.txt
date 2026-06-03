@@ -87,4 +87,166 @@ peguei de construtor
 
 oque tem this é tributo, oque nao tem é parametro
 
+ 
+===================== CONTEUDO 12 ========================
+                       REVISÃO
+
+duvidas a pesquisar.
+oque diferencia uma lista estatica e euma lista dinamica?
+como escolhemos qual usar?
+
+
+==DICAS==
+-se tem um tamanho definido usar vetor
+-quando usa vetor sempre usa FOR ⭐ lista dinamica usar DO WHILE, com flag
+-listas sincronizadas ler eles no mesmo for (sincronizado significa que o nome do luno vai estar no vetor 0 e a nota tbm no vetor 0)
+-⭐ SEMPRE primeiro for preenche vetor, segundo vetor para achar e imprimir o vetor
+- para imprimir de tras pra fente mudamos o cabeçalho para "aux--"
+-se for vetor de string tem que colocar "compareToIgnoreCase"
+-comando split quebra a string no vetor, cria o vetor a partir do string
+
+-LISTA DINAMICA tem que importar import 
+🔴 java.util.ArrayList;
+🔴 import java.util.List;
+⭐size() é a mesma coisa do que LENGHT;⭐ 
+-tem ue flar que tipo é a lista
+-método '.add', adiciona e empurra as outras coisas para frente.
+-alterar item da lista '.set'altera e substitui.
+-'lista.remove' = remove item 
+-'(LISTA.size()-1)' = remove ultimo item da lista
+
+🔴Exemplo 12 usa tudo, menos o metodo da bolha
+
+
+
+
+⭐ prova dia 10 - 8 da manhã⭐ 
+⭐ exercicios ate terça semana que vem⭐ 
+⭐ prova conteudo 12 e 13 basicamente.⭐ 
+⭐fazer exercicio 26 e 27⭐
+⭐ matriz NÃO SERÁ COBRADO⭐ 
+⭐ ordenação por método da bolha ⭐ 
+⭐ método da bolha ter um exercicio para ctrl c e ctrl v⭐ 
+⭐ EXEMPLO 4a 99 por cento de cair na prova⭐ 
+⭐ vai fazer duas questoes UMA onde tem que usar vetor e UMA que nao tem possibilidade de usar vetor e ai sera listadinamica⭐ 
+
+
+===================== CONTEUDO 13 ========================
+                       REVISÃO
+
+-Crie um metodo em outra classe e permita ue esse metodo seja chamado para outra classe, dai TEM QUE SER public
+-pesquisar sobre metodo MAIn
+- ⭐ Um arquivo para cada exercicio E UM arquivo para classe⭐ 
+
+-exercicio1 é metodo double e nao void
+-⭐ se vc fizer o um e o dois, matou a questao da prova⭐
+
+=====================================================================
+
+
+MÉTODOS PARA STRINGS
+
+⚠️Sintaxe: (int)CARACTER
+Descrição: Retorna o código ASCII referente a CARACTER
+
+⚠️Sintaxe: (char)NUMERO
+Descrição: Retorna o caracter referente ao código ASCII de NUMERO
+
+⚠️Sintaxe:
+Integer.parseInt(STR)
+Float.parseFloat(STR)
+Double.parseDouble(STR)
+Descrição: Converte a string STR para um valor numérico
+
+⚠️Sintaxe: String.valueOf(NUMERO)
+Descrição: Converte a variável inteira NUMERO para uma string
+
+⚠️Sintaxe: STR.length()
+Descrição: Retorna o tamanho da string STR (incluindo espaços em branco)
+
+⚠️Sintaxe: STR.substring(pi, pf)
+Descrição: Retorna o substring entre pi e pf-1 de STR. Se pf não for informado será retornado de pi até o fim da STR. O primeiro caracter de uma string está no índice 0.
+
+⚠️Sintaxe: STR.toUpperCase()
+Descrição: Converte todos os caracteres da string STR para maiúsculo
+
+⚠️Sintaxe: STR.toLowerCase()
+Descrição: Converte todos os caracteres da string STR para minúsculo
+
+⚠️Sintaxe: STR1.indexOf(STR2)
+Descrição: Retorna a posição da string STR2 na string STR1. Se não encontrar retorna -1
+
+⚠️Sintaxe: STR.charAt(pos)
+Descrição: Retorna o caracter presente na posição pos da string STR
+
+⚠️Sintaxe: STR.split(CARACTER)
+Descrição: Divida a string STR em vários substrings, separados por CARACTER, e atribui cada substring às posições de um vetor
+
+⚠️Sintaxe:
+STR.replace(STR1,STR2)
+STR.replaceAll(STR1,STR2)
+Descrição:
+replace troca substring STR1 pela substring STR2 em STR.
+replaceAll troca todas as ocorrências de STR1 por STR2
+
+⚠️Sintaxe: STR.trim()
+Descrição: Retira espaços em branco ao final e início da string STR
+
+
+
+=====================================================================
+
+
+CLASSE MATH - MÉTODOS NUMÉRICOS/TRIGONOMÉTRICOS
+
+⚠️ Sintaxe: Math.pow(x, y)
+Descrição: Calcula a potência de X elevado a Y
+
+⚠️ Sintaxe: Math.sqrt(x)
+Descrição: Calcula a raiz quadrada de X
+
+⚠️ Sintaxe: Math.cbrt(x)
+Descrição: Calcula a raiz cúbica de X
+
+⚠️ Sintaxe: Math.round(x)
+Descrição: Arredonda o número real X para cima ou para baixo transformando-o num inteiro
+
+⚠️ Sintaxe: Math.ceil(x)
+Descrição: Arredonda o número real X para cima
+
+⚠️ Sintaxe: Math.floor(x)
+Descrição: Arredonda o número real X para baixo
+
+⚠️ Sintaxe: Math.abs(x)
+Descrição: Retorna o valor absoluto de X
+
+⚠️ Sintaxe: Math.PI
+Descrição: Retorna o valor de π
+
+⚠️ Sintaxe: Math.exp(x)
+Descrição: Obtém e elevado a X (e - neperiano)
+
+⚠️ Sintaxe: Math.random()
+Descrição: Retorna um número aleatório entre 0 e 1
+
+⚠️ Sintaxe: Math.log(x)
+Descrição: Obtém o logaritmo natural de X
+
+⚠️ Sintaxe: Math.log10(x)
+Descrição: Obtém o logaritmo na base 10 de X
+
+⚠️ Sintaxe: Math.sin(x)
+Descrição: Calcula o seno de X (X deve estar representado em radianos)
+
+⚠️ Sintaxe: Math.cos(x)
+Descrição: Calcula o cosseno de X (X deve estar representado em radianos)
+
+⚠️ Sintaxe: Math.tan(x)
+Descrição: Calcula a tangente de X (X deve estar representado em radianos)
+
+⚠️ Sintaxe: Math.toDegrees(x)
+Descrição: Converte a medida de X de radianos para graus
+
+⚠️ Sintaxe: Math.toRadians(x)
+Descrição: Converte a medida de X de graus para radianos
 
