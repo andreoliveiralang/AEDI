@@ -2,7 +2,7 @@ package ETAPA3;
 
 import java.util.Scanner;
 
-public class C13Ex05 {
+public class C13EX05 {
     
     public static void main(String[] args) 
     {
