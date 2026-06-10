@@ -122,12 +122,12 @@ como escolhemos qual usar?
 
 ⭐ prova dia 10 - 8 da manhã⭐ 
 ⭐ exercicios ate terça semana que vem⭐ 
-⭐ prova conteudo 12 e 13 basicamente.⭐ 
-⭐fazer exercicio 26 e 27⭐
+⭐ prova conteudo 12 e 13 basicamente⭐ 
+⭐ fazer exercicio 26 e 27⭐
 ⭐ matriz NÃO SERÁ COBRADO⭐ 
 ⭐ ordenação por método da bolha ⭐ 
 ⭐ método da bolha ter um exercicio para ctrl c e ctrl v⭐ 
-⭐ EXEMPLO 4a 99 por cento de cair na prova⭐ 
+⭐ EXEMPLO 4 á 99 por cento chance de cair na prova⭐ 
 ⭐ vai fazer duas questoes UMA onde tem que usar vetor e UMA que nao tem possibilidade de usar vetor e ai sera listadinamica⭐ 
 
 
@@ -137,7 +137,6 @@ como escolhemos qual usar?
 -Crie um metodo em outra classe e permita ue esse metodo seja chamado para outra classe, dai TEM QUE SER public
 -pesquisar sobre metodo MAIn
 - ⭐ Um arquivo para cada exercicio E UM arquivo para classe⭐ 
-
 -exercicio1 é metodo double e nao void
 -⭐ se vc fizer o um e o dois, matou a questao da prova⭐
 

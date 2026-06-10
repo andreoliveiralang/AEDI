@@ -1,0 +1,91 @@
+GUIA DE SOBREVIVÊNCIA: LISTAS DINÂMICAS 🚀
+===============================================================================
+
+💡 O que é? 
+   Um ArrayList é como um "Vetor Sanfona": ele começa vazio e cresce sozinho 
+   toda vez que você adiciona um elemento. Não tem tamanho fixo (esqueça o [100]!).
+
+⚠️ REGRA DE OURO #1 (O Import Obrigatório no topo do código):
+   import java.util.ArrayList;
+
+⚠️ REGRA DE OURO #2 (Os tipos dentro do < > usam LETRA MAIÚSCULA):
+   ❌ ArrayList<int>    -> NÃO COMPILA!
+   ❌ ArrayList<double> -> NÃO COMPILA!
+   ❌ ArrayList<string> -> NÃO COMPILA!
+
+   ✅ ArrayList<Integer> listaNumero = new ArrayList<>();
+   ✅ ArrayList<Double>  listaNota   = new ArrayList<>();
+   ✅ ArrayList<String>  listaTexto  = new ArrayList<>();
+
+===============================================================================
+                       🔄 DICIONÁRIO DE COMANDOS (Vetor vs. Lista)
+===============================================================================
+
+  O que você quer fazer?     | Vetor Fixo ( [] )       | Lista Dinâmica (ArrayList)
+  ---------------------------+-------------------------+------------------------
+  ➕ Adicionar item no fim   | v[total] = "Java";      | lista.add("Java");
+  📖 Ler/Pegar um item       | String x = v[i];        | String x = lista.get(i);
+  📏 Saber o tamanho atual   | int tam = total;        | int tam = lista.size();
+  🔄 Substituir um item      | v[i] = "Novo";          | lista.set(i, "Novo");
+  ❌ Remover um item         | (Gambiarra manual)      | lista.remove(i);
+  🧹 Apagar a lista toda     | (Reiniciar o vetor)     | lista.clear();
+
+===============================================================================
+                       ⚙️ ESTRUTURAS PADRÃO PARA COPIAR NA PROVA
+===============================================================================
+
+📥 1. LOOP DE CADASTRO (Lendo valores com Scanner até digitar a FLAG "0")
+-------------------------------------------------------------------------------
+ArrayList<String> nomes = new ArrayList<>();
+
+while (true) {
+    System.out.print("Digite o nome (ou '0' para parar): ");
+    String dado = keyboard.nextLine();
+    
+    if (dado.equals("0")) {
+        break; // 🛑 Para o laço imediatamente
+    }
+    
+    nomes.add(dado); // ➕ Adiciona direto na última vaga livre!
+}
+
+
+🖥️ 2. LOOP DE VARREDURA / IMPRESSÃO (O 'for' oficial da lista)
+-------------------------------------------------------------------------------
+// 💡 O limite do 'for' é sempre '.size()' com parênteses!
+for (int i = 0; i < nomes.size(); i++) {
+    
+    // 💡 Sempre usa '.get(i)' para acessar o valor dentro da gaveta
+    System.out.println("Posição [" + i + "] = " + nomes.get(i));
+}
+
+
+🔍 3. LOOP DE BUSCA (Procurando um elemento na lista)
+-------------------------------------------------------------------------------
+System.out.print("Quem você quer buscar? ");
+String busca = keyboard.nextLine();
+boolean achou = false;
+
+for (int i = 0; i < nomes.size(); i++) {
+    // Compara o texto da lista (.get(i)) com o termo digitado
+    if (nomes.get(i).equalsIgnoreCase(busca)) {
+        System.out.println("✨ Encontrado na posição: " + i);
+        achou = true;
+        break; // Encontrou? Para o loop!
+    }
+}
+
+if (!achou) {
+    System.out.println("❌ Nome não cadastrado no sistema.");
+}
+
+===============================================================================
+                       🔥 BIZUS DE ÚLTIMA HORA PARA O DEZ
+===============================================================================
+⭐ Não escreva 'lista.length'! O certo é 'lista.size()'. O Java tira ponto se esquecer!
+⭐ O método '.add()' é inteligente: ele descobre sozinho onde está o espaço vazio 
+   e empurra o elemento para lá. Você não precisa criar variáveis como 'totalAlunos++'.
+⭐ Se remover um item com '.remove(0)', todos os outros itens da lista andam 
+   uma casa para frente automaticamente para tapar o buraco.
+
+===============================================================================

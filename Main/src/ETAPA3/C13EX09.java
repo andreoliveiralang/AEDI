@@ -37,3 +37,10 @@ public class C13EX09 {
     }
 }
 
+//EXERCICIO 9 
+//Faça um programa que leia uma frase curta e a imprima de novo com a primeira letra de cada palavra da frase em maiúscula e o restante da palavra em minúsculo.​
+
+
+//Exemplo:​
+//Eu sou torcedor do galão da massa.​
+//Eu Sou Torcedor Do Galão Da Massa

@@ -1,0 +1,10 @@
+Exercício 1​
+​
+Faça um programa (classe com método main) que contenha um método específico que receba os valores das coordenadas x e y de dois pontos do plano cartesiano e calcule e retorne a distância entre eles. O método main solicitará ao usuário as coordenadas dos dois pontos (x1, y1, x2, y2), chamará este outro método, e imprimirá a distância na tela. ​
+
+​
+Ponto 1 (x1,y1)  e  Ponto 2 (x2,y2)​
+
+​math.sqrt(x1 x2)^2  + (y1-y2)^2
+
+Para testar: Ponto 1 (x1=3, y1=4) e Ponto 2 (x2=6, y2=7)  Distância =  4.2426..​

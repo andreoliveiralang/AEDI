@@ -1,0 +1,7 @@
+Exercício 28
+
+Faça um programa que leia o RA (registro acadêmico) e o nome de vários alunos de uma turma. ​
+
+Depois, ordene as duas listas em ordem alfabética pelo nome do aluno. ​
+
+Depois, solicite um nome qualquer de aluno ao usuário e pesquise-o na lista. Achando-o imprima seu RA e a ordem (posição) dele na lista. Se não achar imprima a mensagem: “NOME NÃO ENCONTRADO”. ​

@@ -1,0 +1,23 @@
+exercicio 27
+
+Faça um programa que execute as seguintes ações:​
+
+a- Preencher duas listas de dados de forma sincronizada, uma com CPFs e outra com endereços, de várias pessoas;​
+
+b- Depois, pedir um CPF qualquer;​
+
+c- Depois, pesquisar o CPF informado na lista de CPFs; ​
+
+    a- Se achar, perguntar ao usuário se quer alterar o endereço ou excluir o CPF/endereço. ​
+
+        -Se ele responder que quer alterar, peça o novo endereço e atualize a lista de endereço.​
+
+        -Se ele responder que quer excluir, exclua o CPF e o endereço das respectivas listas.​
+
+    b - Se não achar, informar que o CPF não foi encontrado e perguntar ao usuário se quer incluir o CPF com um novo endereço. ​
+
+        - Se ele responder que quer incluir, peça o novo endereço e inclua os novos CPF e endereço nas respectivas listas. ​
+
+d- Depois, imprimir as duas listas de forma sincronizada (CPF – Endereço).​
+
+A entrada de dados será encerrada quando o usuário digitar 0 no CPF.
